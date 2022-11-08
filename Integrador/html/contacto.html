@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blinka CONTACTO</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Nerko+One&display=swap" rel="stylesheet">
+  <script src="../js/script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="pag-nav">
+      <h1>Blinka Catalogos Casa Viu</h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="blog.html" class="a-nav">BLOG</a></li>
+        <li><a href="index.html" class="a-nav">HOME</a></li>
+        <li><a href="contacto.html" class="a-nav">CONTACTO</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Envianos tus dudas o sugerencias para seguir mejorando en la plataforma.</h1>
+
+    <form action="#">
+      <h2>Contactanos</h2>
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre Completo" required>
+      <input type="email" id="correo" name="correo" placeholder="Correo electronico" required>
+      <input type="number" id="telefono" name="telefono" placeholder="Telefono" required>
+      <textarea name="comentario" id="comentario" placeholder="Escriba aqui su mensaje" required></textarea>
+      <input type="button" value="ENVIAR" id="boton" onclick="return confirmarEnvio()">
+    </form>
+
+  </main>
+
+
+  <footer>
+    <div class="footer_linea">
+      Casa Viu Siempre Siempre Con Vos
+    </div>
+
+    <div class="footer_pie-de-pagina">
+      <img src="../img/logo-blinka.jpg" alt="logo de pie de pagina" class="logo">
+      <p>Siguenos en nuestras redes sociales</p>
+      <div class="contenedor-iconos">
+        <a href="https://www.facebook.com/" class="icono-social" target="_blank">
+          <img src="../img/FacebookBlanco.png" alt="icono facebook">
+        </a>
+        <a href="https://www.instagram.com/" class="icono-social" target="_blank">
+          <img src="../img/InstagramBlanco.png" alt="icono instagram">
+        </a>
+        <a href="https://twitter.com/?lang=es" class="icono-social" target="_blank">
+          <img src="../img/TwitterBlanco.png" alt="icono twitter">
+        </a>
+        <a href="https://ar.linkedin.com/" class="icono-social" target="_blank">
+          <img src="../img/LinkedinBlanco.png" alt="icono Linkedin">
+        </a>
+      </div>
+
+      <span class="copyright">
+        &copy;Copyright © 1999-2022 Blinka A.R.S.L.V.M
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>
